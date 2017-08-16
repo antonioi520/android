@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">lab1orig</string>
+    <string name="app_name">lab1f</string>
     <string name="action_settings">Settings</string>
 
     <string-array name="chocolate_flavors">

@@ -62,7 +62,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Type of Chocolate"
-                android:textSize="25dp" />
+                android:textSize="25dp"
+                tools:text="Type of Chocolate" />
 
             <Spinner
                 android:id="@+id/spinner"
@@ -141,6 +142,13 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Submit" />
+
+            <Button
+                android:id="@+id/btnResults"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Get Results"
+                android:onClick="GoToResults" />
         </TableRow>
 
         <TableRow
